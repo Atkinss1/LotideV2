@@ -1,5 +1,5 @@
 /**
- * 
+ * Takes in an Array and returns the first index
  * @param {Array} arr 
  * @returns Element[0]
  */

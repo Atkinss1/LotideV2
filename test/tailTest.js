@@ -6,7 +6,7 @@ describe('#tail', () => {
     expect(tail(["Hello", "Lighthouse", "Labs"])).to.eql(["Lighthouse", "Labs"]);
   });
 
-  it('returns null if parameter is not an array', () => {
+  it('returns "null" if parameter is not an array.', () => {
     expect(tail('hello, Lighthouse, Labs')).to.equal(null);
   });
 });

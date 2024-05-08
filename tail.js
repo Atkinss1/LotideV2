@@ -1,5 +1,5 @@
 /**
- * 
+ * Takes in an Array and returns a new array starting at index[1]
  * @param {Array} arr 
  * @returns Array
  */

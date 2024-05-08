@@ -1,5 +1,5 @@
 /**
- * 
+ * Compares two parameters to each other and returns a stdout with message
  * @param {*} actual 
  * @param {*} expected 
  * @returns 
