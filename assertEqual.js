@@ -1,3 +1,9 @@
+/**
+ * 
+ * @param {*} actual 
+ * @param {*} expected 
+ * @returns 
+ */
 const assertEqual = function (actual, expected) {
   if (typeof(actual) === 'string' && typeof(expected) === 'string') {
     const lowerCaseActual = actual.toLowerCase();
@@ -14,8 +20,5 @@ const assertEqual = function (actual, expected) {
       return console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
     }
 };
-
-assertEqual('Lighthouse Labs', 'Bootcamp');
-assertEqual(1, 1);
 
 module.exports = assertEqual;

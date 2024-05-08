@@ -1,5 +1,8 @@
-const assertEqual = require('./assertEqual');
-
+/**
+ * 
+ * @param {Array} arr 
+ * @returns Element[0]
+ */
 const head = function (arr) {
   if (!Array.isArray(arr)) {
     return console.log(`${arr} is not an Array.`);
@@ -11,6 +14,4 @@ const head = function (arr) {
   return arr[0];
 };
 
-assertEqual(head([5, 6, 7]), 5);
-assertEqual(head(['Hello', 'Lighthouse', 'Labs']), 'hello');
-assertEqual(head('hello'), 'hello');
+module.exports = head;
