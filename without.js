@@ -2,6 +2,7 @@
  * Returns a new array excluding items to remove
  * @param {Array} source 
  * @param {Array} itemsToRemove 
+ * @returns new Array
  */
 const without = function (source, itemsToRemove) {
   if (!Array.isArray(source) && !Array.isArray(itemsToRemove)) {

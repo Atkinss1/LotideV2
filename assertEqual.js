@@ -2,7 +2,7 @@
  * Compares two parameters to each other and returns a stdout with message
  * @param {*} actual 
  * @param {*} expected 
- * @returns 
+ * @returns assertion
  */
 const assertEqual = function (actual, expected) {
   if (typeof(actual) === 'string' && typeof(expected) === 'string') {

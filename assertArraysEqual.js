@@ -4,6 +4,7 @@ const eqArrays = require('./eqArrays');
  * Takes in two arrays and asserts they are a match
  * @param {Array} arr1 
  * @param {Array} arr2 
+ * @returns assertion
  */
 const assertArraysEqual = function (arr1, arr2) {
   if (!Array.isArray(arr1) && !Array.isArray(arr2)) {

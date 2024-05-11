@@ -1,7 +1,8 @@
 /**
  * Takes in two Arrays and compares a perfect match
  * @param {Array} arr1 
- * @param {Array} arr2 
+ * @param {Array} arr2
+ * @returns Boolean
  */
 const eqArrays = function (arr1, arr2) {
   if (!Array.isArray(arr1) && !Array.isArray(arr2)) {
