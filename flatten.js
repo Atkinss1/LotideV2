@@ -1,5 +1,5 @@
 /**
- * Iterates through an array, if an index is an Array it will spread that array
+ * Iterates through an array, if an index is an Array it will spread that array and concatenate it to the results
  * @param {Array} arr 
  * @returns new Array
  */
